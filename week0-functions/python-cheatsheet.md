@@ -6,15 +6,16 @@
 | 函数 | 作用 | 示例 |
 |------|------|------|
 | `input(prompt)` | 接收输入 | `name = input("Name: ")` |
-| `print(*obj, sep, end)` | 输出 | `print("hi", end="")` |
+| `print(*object, sep, end)` | 输出 | `print("hi", end="")` |
 
 ## 类型转换
 
 | 函数 | 作用 | 注意 | 单词 |
 |------|------|------|------|
 | `int(x)` | 转整数 | 非数字会 ValueError | integer |
-| `float(x)` | 转小数 | | float |
+| `float(x)` | 转小数 | 既可以输入整数也可以输入小数 | float |
 | `str(x)` | 转字符串 | | string |
+| `round`  | 四舍五入，舍入到指定位数 | eg: round(nubmber[,ndigits]) | |
 
 ## 字符串方法
 
@@ -22,40 +23,16 @@
 |------|------|------|------|
 | `.strip()` | 去掉首尾空白 | `" hi ".strip()` → `"hi"` | 剥离 |
 | `.split(sep)` | 分割成列表 | `"a,b".split(",")` → `['a','b']` | 分割 |
-| `.lower()` | 转小写 | `"AB".lower()` → `"ab"` |
-| `.upper()` | 转大写 | |
+| `.lstrip`| 去掉左侧空白 | | |
+| `.rsrtip`| 去掉右侧空白 | | |
 | `.title()` | 每个词首字母大写 | `"hello world".title()` |
 | `.capitalise()` | 整个字符串首字母大写 | | |
-| `.replace(a, b)` | 替换 | `"cat".replace("c","b")` |
 
-## 列表方法
-
-| 方法 | 作用 |
-|------|------|
-| `.append(x)` | 末尾添加 |
-| `.insert(i, x)` | 指定位置插入 |
-| `.remove(x)` | 删除第一个匹配项 |
-| `.pop(i)` | 删除并返回指定位置 |
-| `.sort()` | 原地排序 |
-| `len(lst)` | 长度 |
-
-## 字典方法
-
-| 方法 | 作用 |
-|------|------|
-| `.keys()` | 所有键 |
-| `.values()` | 所有值 |
-| `.items()` | 键值对 |
-| `.get(k, default)` | 安全取值 |
-
-## 内置函数
-
-| 函数 | 作用 |
-|------|------|
-| `len(x)` | 长度 |
-| `range(a, b, step)` | 数字序列 |
-| `sum(iterable)` | 求和 |
-| `max()` / `min()` | 最大/最小 |
-| `sorted(iterable)` | 返回排序后的新列表 |
-| `enumerate(iterable)` | 带索引遍历 |
-| `zip(a, b)` | 并行遍历 |
+## 其他
+| 函数 | 全拼 | 作用 | 示例|
+|------|------|------|------|
+| def | define | 定义自定义函数 | |
+| pow | | 求数字幂| pow(n,2) |
+| if | | 用于条件 | if score >=90: |
+| elif | else if | 类似于if的必要假言判断，意思大概是“否则” | |
+| and | | 同时满足多个条件要求 | if score >=90 and <= 100 |
