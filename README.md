@@ -7,8 +7,8 @@
 - 授课教师：David J. Malan
 
 ## 学习进度
-| 周次 | 主题 | 笔记 | 作业 |
-|------|------|------|------|
-| Week 0 | Functions, Variables | [笔记](./week0_functions/notes.md) | ✅ |
-| Week 1 | Conditionals | [笔记](./week1_conditionals/notes.md) | ✅ |
+| 周次 | 主题  | 作业 |
+|------|------|------|
+| Week 0 | Functions, Variables |  ✅ |
+| Week 1 | Conditionals | ❌ |
 | ... | ... | ... | ... |
